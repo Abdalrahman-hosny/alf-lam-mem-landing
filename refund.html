@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" type="image/x-icon">
+  <link rel="stylesheet" href="template/css/bootstrap.min.css">
+  <link rel="stylesheet" href="template/css/all.css">
+  <link rel="stylesheet" href="template/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="template/css/style.css">
+  <link rel="stylesheet" href="template/css/animations.css">
+  <title>سياسة الاسترجاع والاسترداد - الف لام ميم</title>
+</head>
+<body>
+  <!-- Loading Page -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <div class="loader-logo">
+        <img src="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" alt="الف لام ميم">
+      </div>
+      <div class="loader-text">
+        <h3 data-i18n="loader.title">أكاديمية الف لام ميم</h3>
+        <p data-i18n="loader.subtitle">منصة تحفيظ قرآنية معاصرة</p>
+      </div>
+      <div class="loader-spinner">
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" id="scrollToTop" aria-label="العودة للأعلى">
+    <i class="fas fa-arrow-up"></i>
+    <svg class="scroll-progress" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
+    </svg>
+  </button>
+
+  <!-- Navbar -->
+  <nav class="main-navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <!-- Logo -->
+        <div class="navbar-logo">
+          <img src="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" alt="الف لام ميم" class="logo-img">
+        </div>
+        
+        <!-- Navigation Links -->
+        <ul class="navbar-links">
+          <li><a href="index.html" class="nav-link" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="privacy.html" class="nav-link" data-i18n="nav.privacy">سياسة الخصوصية</a></li>
+          <li><a href="refund.html" class="nav-link active" data-i18n="nav.refund">سياسة الاسترجاع والاسترداد</a></li>
+          <li><a href="terms.html" class="nav-link" data-i18n="nav.terms">الشروط والأحكام</a></li>
+        </ul>
+        
+        <!-- Language Switcher -->
+        <div class="language-switcher">
+          <button class="lang-toggle" aria-label="تغيير اللغة">
+            <i class="fas fa-globe"></i>
+            <span class="current-lang">AR</span>
+            <i class="fas fa-chevron-down lang-arrow"></i>
+          </button>
+          <div class="lang-dropdown">
+            <button class="lang-option active" data-lang="ar" data-dir="rtl">
+              <span class="lang-flag">🇸🇦</span>
+              <span class="lang-name">العربية</span>
+              <i class="fas fa-check"></i>
+            </button>
+            <button class="lang-option" data-lang="en" data-dir="ltr">
+              <span class="lang-flag">🇬🇧</span>
+              <span class="lang-name">English</span>
+              <i class="fas fa-check"></i>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Contact Button -->
+        <a href="#" class="contact-btn" data-i18n="nav.contact">تواصل معنا</a>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" aria-label="قائمة التنقل">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      
+      <!-- Mobile Menu -->
+      <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+          <li><a href="index.html" class="mobile-nav-link" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="about.html" class="mobile-nav-link" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="privacy.html" class="mobile-nav-link" data-i18n="nav.privacy">سياسة الخصوصية</a></li>
+          <li><a href="refund.html" class="mobile-nav-link active" data-i18n="nav.refund">سياسة الاسترجاع والاسترداد</a></li>
+          <li><a href="terms.html" class="mobile-nav-link" data-i18n="nav.terms">الشروط والأحكام</a></li>
+          <li class="mobile-lang-item">
+            <div class="mobile-lang-switcher">
+              <button class="mobile-lang-option active" data-lang="ar" data-dir="rtl">
+                <span class="lang-flag">🇸🇦</span>
+                <span class="lang-name">العربية</span>
+                <i class="fas fa-check"></i>
+              </button>
+              <button class="mobile-lang-option" data-lang="en" data-dir="ltr">
+                <span class="lang-flag">🇬🇧</span>
+                <span class="lang-name">English</span>
+                <i class="fas fa-check"></i>
+              </button>
+            </div>
+          </li>
+          <li><a href="#" class="mobile-contact-btn" data-i18n="nav.contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Refund Hero Section -->
+  <section class="refund-hero">
+    <div class="container">
+      <div class="refund-hero-content">
+        <div class="refund-hero-icon">
+          <i class="fas fa-undo-alt"></i>
+        </div>
+        <h1 data-i18n="refund.hero.title">سياسة الاسترجاع والاسترداد</h1>
+        <p data-i18n="refund.hero.desc">نحن في أكاديمية الف لام ميم ملتزمون بتقديم تجربة تعليمية ممتازة. هذه السياسة توضح شروط وإجراءات الاسترجاع والاسترداد للاشتراكات والخدمات المدفوعة.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Refund Content Section -->
+  <section class="refund-content">
+    <div class="container">
+      <!-- Introduction -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-info-circle"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="refund.intro.title">مقدمة</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="refund.intro.p1">نحن في أكاديمية الف لام ميم نهدف إلى تقديم أفضل تجربة تعليمية ممكنة. نفهم أن الظروف قد تتغير، ونوفر سياسة استرجاع واضحة وعادلة لجميع المستخدمين.</p>
+            <p data-i18n="refund.intro.p2">تطبق هذه السياسة على جميع الاشتراكات والخدمات المدفوعة التي نقدمها. يرجى قراءة هذه السياسة بعناية قبل إجراء أي عملية شراء.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Refund Eligibility -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="refund.eligibility.title">أهلية الاسترجاع</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="refund.eligibility.desc">يمكنك طلب استرجاع المبلغ في الحالات التالية:</p>
+            <ul>
+              <li data-i18n="refund.eligibility.1">إذا قمت بالاشتراك عن طريق الخطأ</li>
+              <li data-i18n="refund.eligibility.2">إذا لم تتمكن من الوصول إلى الخدمة بسبب مشكلة تقنية من جانبنا</li>
+              <li data-i18n="refund.eligibility.3">إذا تم إلغاء الكورس أو الخدمة من قبلنا</li>
+              <li data-i18n="refund.eligibility.4">إذا لم يتم تفعيل اشتراكك خلال 48 ساعة من الدفع</li>
+            </ul>
+            <div class="refund-highlight">
+              <strong data-i18n="refund.eligibility.note.title">ملاحظة مهمة:</strong>
+              <p data-i18n="refund.eligibility.note.desc">لا يمكن استرجاع المبلغ إذا تم استخدام أكثر من 30% من محتوى الكورس أو إذا انقضى أكثر من 14 يومًا من تاريخ الشراء.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Refund Process -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-sync-alt"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="refund.process.title">إجراءات الاسترجاع</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="refund.process.desc">لطلب استرجاع المبلغ، يرجى اتباع الخطوات التالية:</p>
+            <ul>
+              <li data-i18n="refund.process.1">تواصل معنا عبر البريد الإلكتروني أو الواتساب مع رقم الطلب أو رقم المعاملة</li>
+              <li data-i18n="refund.process.2">قدم سببًا واضحًا لطلب الاسترجاع</li>
+              <li data-i18n="refund.process.3">سنراجع طلبك خلال 3-5 أيام عمل</li>
+              <li data-i18n="refund.process.4">في حالة الموافقة، سيتم استرجاع المبلغ خلال 7-14 يوم عمل</li>
+            </ul>
+            <p data-i18n="refund.process.note">سيتم استرجاع المبلغ إلى نفس طريقة الدفع المستخدمة في الشراء الأصلي.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Refund Timeframe -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="refund.timeframe.title">الإطار الزمني للاسترجاع</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="refund.timeframe.desc">الإطار الزمني لمعالجة طلبات الاسترجاع:</p>
+            <ul>
+              <li><strong data-i18n="refund.timeframe.review">مراجعة الطلب:</strong> <span data-i18n="refund.timeframe.review.desc">3-5 أيام عمل</span></li>
+              <li><strong data-i18n="refund.timeframe.processing">معالجة الاسترجاع:</strong> <span data-i18n="refund.timeframe.processing.desc">7-14 يوم عمل بعد الموافقة</span></li>
+              <li><strong data-i18n="refund.timeframe.appearance">ظهور المبلغ:</strong> <span data-i18n="refund.timeframe.appearance.desc">قد يستغرق 3-5 أيام إضافية حسب البنك أو طريقة الدفع</span></li>
+            </ul>
+            <p data-i18n="refund.timeframe.note">نحاول معالجة جميع الطلبات في أسرع وقت ممكن. قد تستغرق المعالجة وقتًا أطول خلال فترات الذروة أو العطلات.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Non-Refundable Items -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-ban"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="refund.nonrefundable.title">عناصر غير قابلة للاسترجاع</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="refund.nonrefundable.desc">لا يمكن استرجاع المبلغ في الحالات التالية:</p>
+            <ul>
+              <li data-i18n="refund.nonrefundable.1">إذا تم استخدام أكثر من 30% من محتوى الكورس</li>
+              <li data-i18n="refund.nonrefundable.2">إذا انقضى أكثر من 14 يومًا من تاريخ الشراء</li>
+              <li data-i18n="refund.nonrefundable.3">الاشتراكات الشهرية بعد انتهاء الفترة المدفوعة</li>
+              <li data-i18n="refund.nonrefundable.4">الخدمات المقدمة كاملة (مثل الشهادات الصادرة)</li>
+              <li data-i18n="refund.nonrefundable.5">الخصومات والعروض الترويجية المنتهية الصلاحية</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Partial Refunds -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-percentage"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="refund.partial.title">الاسترجاع الجزئي</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="refund.partial.desc">في بعض الحالات، قد نقدم استرجاعًا جزئيًا:</p>
+            <ul>
+              <li data-i18n="refund.partial.1">إذا تم استخدام جزء من الكورس (أقل من 30%)، قد نستعيد نسبة من المبلغ</li>
+              <li data-i18n="refund.partial.2">إذا كان هناك مشكلة تقنية جزئية، قد نستعيد جزءًا من المبلغ</li>
+              <li data-i18n="refund.partial.3">سيتم احتساب المبلغ المسترجع بناءً على نسبة الاستخدام الفعلية</li>
+            </ul>
+            <p data-i18n="refund.partial.note">سيتم إعلامك بالمبلغ المسترجع قبل معالجة الطلب.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cancellation Policy -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-times-circle"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="refund.cancellation.title">سياسة الإلغاء</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="refund.cancellation.desc">يمكنك إلغاء اشتراكك في أي وقت:</p>
+            <ul>
+              <li data-i18n="refund.cancellation.1">الإلغاء لا يعني استرجاع تلقائي للمبلغ المدفوع</li>
+              <li data-i18n="refund.cancellation.2">سيستمر الوصول إلى الخدمة حتى نهاية الفترة المدفوعة</li>
+              <li data-i18n="refund.cancellation.3">لن يتم تجديد الاشتراك تلقائيًا بعد الإلغاء</li>
+              <li data-i18n="refund.cancellation.4">يمكنك إعادة الاشتراك في أي وقت</li>
+            </ul>
+            <p data-i18n="refund.cancellation.note">لإلغاء اشتراكك، يرجى التواصل معنا أو استخدام خيار الإلغاء في إعدادات حسابك.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="refund-contact-box">
+        <h3 data-i18n="refund.contact.title">هل تحتاج مساعدة؟</h3>
+        <p data-i18n="refund.contact.desc">إذا كان لديك أي أسئلة حول سياسة الاسترجاع والاسترداد أو تحتاج إلى تقديم طلب استرجاع، لا تتردد في التواصل معنا. فريق الدعم متاح لمساعدتك.</p>
+        <a href="https://wa.me/+201055661614" target="_blank" class="refund-contact-btn">
+          <i class="fab fa-whatsapp"></i>
+          <span data-i18n="refund.contact.btn">تواصل معنا عبر الواتساب</span>
+        </a>
+      </div>
+
+      <!-- Last Updated -->
+      <div class="refund-last-updated">
+        <p><strong data-i18n="refund.updated.title">آخر تحديث:</strong> <span data-i18n="refund.updated.date">يناير 2025</span></p>
+        <p data-i18n="refund.updated.desc">هذه السياسة سارية المفعول اعتبارًا من تاريخ آخر تحديث أعلاه.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-pattern footer-pattern-1"></div>
+    <div class="footer-pattern footer-pattern-2"></div>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section footer-brand">
+          <div class="footer-logo">
+            <img src="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" alt="الف لام ميم">
+          </div>
+          <h3 data-i18n="footer.brand.title">أكاديمية الف لام ميم</h3>
+          <p data-i18n="footer.brand.desc">منصة تحفيظ قرآنية رقمية تجمع بين التقاليد الأصيلة والتكنولوجيا الحديثة لمساعدتك على حفظ القرآن بإتقان.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="فيسبوك" data-i18n="[aria-label]footer.social.facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="تويتر" data-i18n="[aria-label]footer.social.twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="إنستغرام" data-i18n="[aria-label]footer.social.instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/+201055661614" target="_blank" class="social-link" aria-label="واتساب" data-i18n="[aria-label]footer.social.whatsapp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="يوتيوب" data-i18n="[aria-label]footer.social.youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-section footer-links">
+          <h4 data-i18n="footer.links.title">روابط سريعة</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="footer.links.home">الرئيسية</a></li>
+            <li><a href="#" data-i18n="footer.links.about">من نحن</a></li>
+            <li><a href="#" data-i18n="footer.links.features">المميزات</a></li>
+            <li><a href="#" data-i18n="footer.links.courses">الكورسات</a></li>
+            <li><a href="#" data-i18n="footer.links.contact">تواصل معنا</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section footer-legal">
+          <h4 data-i18n="footer.legal.title">معلومات قانونية</h4>
+          <ul>
+            <li><a href="privacy.html" data-i18n="footer.legal.privacy">سياسة الخصوصية</a></li>
+            <li><a href="terms.html" data-i18n="footer.legal.terms">الشروط والأحكام</a></li>
+            <li><a href="refund.html" data-i18n="footer.legal.refund">سياسة الاسترجاع</a></li>
+            <li><a href="#" data-i18n="footer.legal.cookies">سياسة الكوكيز</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section footer-download">
+          <h4 data-i18n="footer.download.title">حمل التطبيق</h4>
+          <p data-i18n="footer.download.desc">احصل على تجربة كاملة على هاتفك المحمول</p>
+          <div class="footer-store-buttons">
+            <a href="#" class="footer-store-btn apple">
+              <i class="fab fa-apple"></i>
+              <div>
+                <small data-i18n="footer.download.apple.small">متاح على</small>
+                <span>App Store</span>
+              </div>
+            </a>
+            <a href="#" class="footer-store-btn google">
+              <i class="fab fa-google-play"></i>
+              <div>
+                <small data-i18n="footer.download.google.small">حمل من</small>
+                <span>Google Play</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <p data-i18n="footer.copyright">&copy; 2025 أكاديمية الف لام ميم. جميع الحقوق محفوظة.</p>
+        </div>
+        <div class="footer-made">
+          <p data-i18n="footer.made">صُنع بـ <i class="fas fa-heart"></i> من أجل خدمة القرآن الكريم</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+  <script src="template/js/jquery-3.2.1.min.js"></script>
+  <script src="template/js/bootstrap.bundle.min.js"></script>
+  <script src="template/js/swiper-bundle.min.js"></script>
+  <script src="template/js/main.js"></script>
+</body>
+</html>
+

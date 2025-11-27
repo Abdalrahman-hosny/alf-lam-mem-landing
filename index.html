@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" type="image/x-icon">
+  <link rel="stylesheet" href="template/css/bootstrap.min.css">
+  <link rel="stylesheet" href="template/css/all.css">
+  <link rel="stylesheet" href="template/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="template/css/style.css">
+  <link rel="stylesheet" href="template/css/animations.css">
+  <title>الف لام ميم</title>
+ 
+</head>
+<body>
+  <!-- Loading Page -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <div class="loader-logo">
+        <img src="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" alt="الف لام ميم">
+      </div>
+      <div class="loader-text">
+        <h3 data-i18n="loader.title">أكاديمية الف لام ميم</h3>
+        <p data-i18n="loader.subtitle">منصة تحفيظ قرآنية معاصرة</p>
+      </div>
+      <div class="loader-spinner">
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" id="scrollToTop" aria-label="العودة للأعلى">
+    <i class="fas fa-arrow-up"></i>
+    <svg class="scroll-progress" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
+    </svg>
+  </button>
+
+  <!-- Navbar -->
+  <nav class="main-navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <!-- Logo -->
+        <div class="navbar-logo">
+          <img src="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" alt="الف لام ميم" class="logo-img">
+        </div>
+        
+        <!-- Navigation Links -->
+        <ul class="navbar-links">
+          <li><a href="index.html" class="nav-link" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="privacy.html" class="nav-link" data-i18n="nav.privacy">سياسة الخصوصية</a></li>
+          <li><a href="refund.html" class="nav-link" data-i18n="nav.refund">سياسة الاسترجاع والاسترداد</a></li>
+          <li><a href="terms.html" class="nav-link" data-i18n="nav.terms">الشروط والأحكام</a></li>
+        </ul>
+        
+        <!-- Language Switcher -->
+        <div class="language-switcher">
+          <button class="lang-toggle" aria-label="تغيير اللغة">
+            <i class="fas fa-globe"></i>
+            <span class="current-lang">AR</span>
+            <i class="fas fa-chevron-down lang-arrow"></i>
+          </button>
+          <div class="lang-dropdown">
+            <button class="lang-option active" data-lang="ar" data-dir="rtl">
+              <span class="lang-flag">🇸🇦</span>
+              <span class="lang-name">العربية</span>
+              <i class="fas fa-check"></i>
+            </button>
+            <button class="lang-option" data-lang="en" data-dir="ltr">
+              <span class="lang-flag">🇬🇧</span>
+              <span class="lang-name">English</span>
+              <i class="fas fa-check"></i>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Contact Button -->
+        <a href="#" class="contact-btn" data-i18n="nav.contact">تواصل معنا</a>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" aria-label="قائمة التنقل">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      
+      <!-- Mobile Menu -->
+      <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+          <li><a href="index.html" class="mobile-nav-link" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="about.html" class="mobile-nav-link" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="privacy.html" class="mobile-nav-link" data-i18n="nav.privacy">سياسة الخصوصية</a></li>
+          <li><a href="#" class="mobile-nav-link" data-i18n="nav.refund">سياسة الاسترجاع والاسترداد</a></li>
+          <li><a href="#" class="mobile-nav-link" data-i18n="nav.terms">الشروط والأحكام</a></li>
+          <li class="mobile-lang-item">
+            <div class="mobile-lang-switcher">
+              <button class="mobile-lang-option active" data-lang="ar" data-dir="rtl">
+                <span class="lang-flag">🇸🇦</span>
+                <span class="lang-name">العربية</span>
+                <i class="fas fa-check"></i>
+              </button>
+              <button class="mobile-lang-option" data-lang="en" data-dir="ltr">
+                <span class="lang-flag">🇬🇧</span>
+                <span class="lang-name">English</span>
+                <i class="fas fa-check"></i>
+              </button>
+            </div>
+          </li>
+          <li><a href="#" class="mobile-contact-btn" data-i18n="nav.contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-pattern hero-pattern-1"></div>
+    <div class="hero-pattern hero-pattern-2"></div>
+    <div class="container hero-container">
+      <div class="hero-visual">
+        <div class="phone-mockup">
+          <div class="phone-speaker"></div>
+          <div class="phone-screen">
+            <div class="screen-top">
+              <p class="screen-title" data-i18n="screen.title">ورد اليوم</p>
+              <span class="screen-date" data-i18n="screen.date">الخميس ١٥ رمضان</span>
+            </div>
+            <ul class="screen-list">
+              <li>
+                <span class="screen-label" data-i18n="screen.item1.label">تلاوة القرآن</span>
+                <span class="screen-value" data-i18n="screen.item1.value">٥ صفحات</span>
+              </li>
+              <li>
+                <span class="screen-label" data-i18n="screen.item2.label">أذكار الصباح</span>
+                <span class="screen-value status-complete" data-i18n="screen.item2.value">تمت</span>
+              </li>
+              <li>
+                <span class="screen-label" data-i18n="screen.item3.label">ورد التسبيح</span>
+                <span class="screen-value" data-i18n="screen.item3.value">٣٣ × ٣</span>
+              </li>
+            </ul>
+            <div class="screen-cta">
+              <span data-i18n="screen.cta.label">موعد الصلاة القادمة</span>
+              <strong data-i18n="screen.cta.value">المغرب - ٦:١٥ م</strong>
+            </div>
+          </div>
+        </div>
+        <div class="floating-card dhikr-card">
+          <span class="card-label" data-i18n="card.dhikr.label">المستوى الأسبوعي</span>
+          <strong data-i18n="card.dhikr.value">٨٧٪ التزام</strong>
+          <p data-i18n="card.dhikr.desc">إستمر، بقي ٢ أهداف للإنجاز الكامل</p>
+        </div>
+        <div class="floating-card prayer-card">
+          <i class="fas fa-moon"></i>
+          <div>
+            <span data-i18n="card.prayer.label">تنبيه قيام الليل</span>
+            <small data-i18n="card.prayer.sub">١٠ دقائق قبل الأذان</small>
+          </div>
+        </div>
+        <div class="floating-orb"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-tag" data-i18n="hero.tag">أكاديمية تحفيظ قرآنية معاصرة</p>
+        <h1 data-i18n="hero.title">أكاديمية الف لام ميم</h1>
+        <p class="hero-desc" data-i18n="hero.desc">
+          أكاديمية دينية عربية رقمية تساعدك على حفظ القرآن بإتقان، ضبط مخارج الحروف،
+          ومتابعة أذكارك وبرامجك الإيمانية بشكل ذكي. مدرّسون معتمدون، غرف تفاعلية، وخطط
+          مخصّصة تناسب جميع المستويات مع تقارير تقدم آنية.
+        </p>
+        <ul class="hero-highlights">
+          <li><i class="fas fa-check"></i><span data-i18n="hero.highlight1">حلقات تحفيظ مباشرة مع شيخ/ة معتمدين</span></li>
+          <li><i class="fas fa-check"></i><span data-i18n="hero.highlight2">تقييم تجويد فوري وتقارير تفصيلية لكل طالب</span></li>
+          <li><i class="fas fa-check"></i><span data-i18n="hero.highlight3">خطط حفظ ومراجعة مرنة + متابعة ولي الأمر</span></li>
+        </ul>
+        <div class="hero-cta">
+          <a href="#" class="app-btn apple">
+            <i class="fab fa-apple"></i>
+            <div>
+              <small data-i18n="hero.apple.small">متاح الآن على</small>
+              <span data-i18n="hero.apple.title">App Store</span>
+            </div>
+          </a>
+          <a href="#" class="app-btn google">
+            <i class="fab fa-google-play"></i>
+            <div>
+              <small data-i18n="hero.google.small">حمل التطبيق من</small>
+              <span data-i18n="hero.google.title">Google Play</span>
+            </div>
+          </a>
+          <a href="https://wa.me/+201000000000" target="_blank" class="hero-contact">
+            <i class="fas fa-comments"></i>
+            <span data-i18n="hero.contact">تواصل مباشر على الواتساب</span>
+          </a>
+        </div>
+        <div class="hero-meta">
+          <div class="meta-item">
+            <strong data-i18n="hero.meta1.value">٤٫٩/٥</strong>
+            <span data-i18n="hero.meta1.label">تقييم المستخدمين</span>
+          </div>
+          <div class="meta-item">
+            <strong data-i18n="hero.meta2.value">+١٥ ألف</strong>
+            <span data-i18n="hero.meta2.label">ورد منجز أسبوعياً</span>
+          </div>
+          <div class="meta-item">
+            <strong data-i18n="hero.meta3.value">٢٤/٧</strong>
+            <span data-i18n="hero.meta3.label">مرافقة روحية</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Features Section -->
+  <section class="features-section">
+    <div class="features-pattern features-pattern-1"></div>
+    <div class="features-pattern features-pattern-2"></div>
+    <div class="container">
+      <div class="features-heading">
+        <p class="section-tag" data-i18n="features.tagline">اكتشف أدوات الأكاديمية</p>
+        <h2 data-i18n="features.title">مميزات التطبيق</h2>
+        <p class="section-desc" data-i18n="features.desc">
+          منصة ذكية تربط بين الحفظ، الاختبارات، والاستماع لنخبة القراء لتعيش تجربة قرآنية متكاملة أينما كنت.
+        </p>
+      </div>
+      <div class="features-grid">
+        <article class="feature-card" data-theme="quiz">
+          <span class="feature-pill" data-i18n="features.cards.quiz.tag">اختبر مستواك</span>
+          <div class="feature-icon">
+            <i class="fas fa-clipboard-check"></i>
+          </div>
+          <h3 data-i18n="features.cards.quiz.title">كويز تفاعلي فوري</h3>
+          <p data-i18n="features.cards.quiz.desc">قِّيم حفظك مباشرة بعد كل درس مع تغذية راجعة لحظية.</p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check"></i><span data-i18n="features.cards.quiz.point1">بنك أسئلة شامل للمستويات المختلفة</span></li>
+            <li><i class="fas fa-check"></i><span data-i18n="features.cards.quiz.point2">نتائج فورية مع نقاط تحفيزية</span></li>
+            <li><i class="fas fa-check"></i><span data-i18n="features.cards.quiz.point3">تقارير للأب أو المشرف</span></li>
+          </ul>
+          <a href="#" class="feature-link" data-i18n="features.cards.quiz.cta">جرّب اختبار سريع</a>
+        </article>
+        <article class="feature-card highlight" data-theme="courses">
+          <span class="feature-pill" data-i18n="features.cards.courses.tag">خطة حفظ</span>
+          <div class="feature-icon">
+            <i class="fas fa-book-reader"></i>
+          </div>
+          <h3 data-i18n="features.cards.courses.title">كورسات تحفيظ متدرجة</h3>
+          <p data-i18n="features.cards.courses.desc">خطط مرنة من ٣ إلى ٦ أشهر بإشراف معلمي تجويد معتمدين.</p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check"></i><span data-i18n="features.cards.courses.point1">جدول حفظ ومراجعة محوسب</span></li>
+            <li><i class="fas fa-check"></i><span data-i18n="features.cards.courses.point2">غرف بث مباشر مع تسجيل</span></li>
+            <li><i class="fas fa-check"></i><span data-i18n="features.cards.courses.point3">دعم فردي حسب احتياجك</span></li>
+          </ul>
+          <a href="#" class="feature-link" data-i18n="features.cards.courses.cta">احجز مسارك التعليمي</a>
+        </article>
+        <article class="feature-card" data-theme="audio">
+          <span class="feature-pill" data-i18n="features.cards.audio.tag">استمع بخشوع</span>
+          <div class="feature-icon">
+            <i class="fas fa-headphones-alt"></i>
+          </div>
+          <h3 data-i18n="features.cards.audio.title">سماع قرآني عالي الجودة</h3>
+          <p data-i18n="features.cards.audio.desc">مكتبة صوتية بأصوات كبار القراء مع إمكانية المتابعة مع المصحف.</p>
+          <ul class="feature-list">
+            <li><i class="fas fa-check"></i><span data-i18n="features.cards.audio.point1">أوضاع تركيز وخلفيات هادئة</span></li>
+            <li><i class="fas fa-check"></i><span data-i18n="features.cards.audio.point2">تحميل للاستماع دون إنترنت</span></li>
+            <li><i class="fas fa-check"></i><span data-i18n="features.cards.audio.point3">تتبع موضعك بالمصحف تلقائياً</span></li>
+          </ul>
+          <a href="#" class="feature-link" data-i18n="features.cards.audio.cta">افتح مكتبة التلاوات</a>
+        </article>
+      </div>
+      <div class="features-cta">
+        <a href="#" class="cta-pill" data-i18n="features.cta">ابدأ تجربتك المجانية اليوم</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="container about-container">
+      <div class="about-content">
+        <span class="section-tag" data-i18n="about.tag">عن الأكاديمية</span>
+        <h2 data-i18n="about.title">منصة تحفيظ رقمية بروح الحلقة التقليدية</h2>
+        <p data-i18n="about.desc">
+          نبني تجربة حفظ وتجويد متكاملة تمزج بين المعلم المعتمد، التقييم الذكي، والتشجيع المستمر.
+          كل ذلك داخل تطبيق واحد يرافقك أينما كنت.
+        </p>
+        <ul class="about-highlights">
+          <li><i class="fas fa-check"></i><span data-i18n="about.points.1">مناهج مجازة وتخصيص كامل لمسارك</span></li>
+          <li><i class="fas fa-check"></i><span data-i18n="about.points.2">تقارير فورية وذكاء اصطناعي ينبهك بنبض روحاني</span></li>
+          <li><i class="fas fa-check"></i><span data-i18n="about.points.3">مجتمع محفّز وتحديات أسبوعية لبناء عادة ثابتة</span></li>
+        </ul>
+        <div class="about-metrics">
+          <div>
+            <strong data-i18n="about.metrics.1.value">40K+</strong>
+            <span data-i18n="about.metrics.1.label">جلسة تحفيظ مباشرة</span>
+          </div>
+          <div>
+            <strong data-i18n="about.metrics.2.value">92%</strong>
+            <span data-i18n="about.metrics.2.label">نسبة التزام أسبوعية</span>
+          </div>
+          <div>
+            <strong data-i18n="about.metrics.3.value">4 قارات</strong>
+            <span data-i18n="about.metrics.3.label">مجتمعات نخدمها</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="about-device">
+          <div class="about-device__notch"></div>
+          <div class="about-device__body">
+            <div class="about-device__logo">
+              <img src="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" alt="شعار الف لام ميم">
+              <span data-i18n="about.logo.caption">شعارنا، حروف ذهبية تحمل نور الفاتحة</span>
+            </div>
+            <div class="about-device__card">
+              <p data-i18n="about.device.card.title">جلسة اليوم</p>
+              <div class="about-device__row">
+                <span data-i18n="about.device.card.item1">جزء عمّ</span>
+                <strong>75%</strong>
+              </div>
+              <div class="about-device__row">
+                <span data-i18n="about.device.card.item2">تجويد</span>
+                <strong>A+</strong>
+              </div>
+              <button class="about-device__button" data-i18n="about.device.card.cta">ابدأ التلاوة</button>
+            </div>
+          </div>
+        </div>
+        <div class="about-ribbon">
+          <i class="fas fa-mosque"></i>
+          <div>
+            <strong data-i18n="about.ribbon.title">مرافقة 24/7</strong>
+            <span data-i18n="about.ribbon.desc">تنبيهات الذكر، جلسات جماعية، وتقييم حي</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Download Now Motion CTA -->
+  <section class="download-now-section" id="حمل-الان">
+    <div class="container download-now-grid">
+      <div class="download-now-copy">
+        <span class="section-tag neon-tag" data-i18n="downloadNow.tag">حمل التطبيق الآن</span>
+        <h2 data-i18n="downloadNow.title">كل أدوات التحفيظ في جيبك خلال ثوانٍ</h2>
+        <p data-i18n="downloadNow.desc">
+          لوحة تحكم لحظية، تنبيهات أذكار ذكية، ونظام تحديات بصري يتفاعل مع تقدمك
+          ويمنحك دفعة حماسية كلما أنهيت وردك اليومي.
+        </p>
+        <ul class="download-now-stats">
+          <li>
+            <strong data-i18n="downloadNow.stats.1.value">+١٥٬٠٠٠</strong>
+            <span data-i18n="downloadNow.stats.1.label">تحميل نشط خلال آخر ٣٠ يوم</span>
+          </li>
+          <li>
+            <strong data-i18n="downloadNow.stats.2.value">٩٢٪</strong>
+            <span data-i18n="downloadNow.stats.2.label">نسبة الالتزام الأسبوعي</span>
+          </li>
+          <li>
+            <strong data-i18n="downloadNow.stats.3.value">٤٫٩/٥</strong>
+            <span data-i18n="downloadNow.stats.3.label">متوسط تقييم المستخدمين</span>
+          </li>
+        </ul>
+        <div class="download-now-stores">
+          <a href="#" class="store-badge apple" data-i18n="[aria-label]downloadNow.apple.aria">
+            <div class="store-logo">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M17.74 12.62c.03 3.24 2.83 4.32 2.86 4.33-.02.07-.45 1.53-1.49 3.03-.9 1.32-1.84 2.64-3.27 2.67-1.43.03-1.89-.86-3.53-.86-1.64 0-2.16.83-3.52.89-1.36.06-2.4-1.43-3.31-2.75-1.8-2.61-3.18-7.38-1.34-10.61.93-1.61 2.6-2.63 4.42-2.66 1.38-.03 2.68.94 3.53.94.86 0 2.43-1.16 4.1-.99.7.03 2.66.28 3.93 2.07-.1.06-2.34 1.37-2.33 4.94zM15.27 4.57c.74-.9 1.24-2.16 1.1-3.42-1.06.04-2.34.7-3.09 1.6-.68.79-1.28 2.06-1.12 3.27 1.18.09 2.38-.6 3.11-1.45z"/>
+              </svg>
+            </div>
+            <div class="store-text">
+              <small data-i18n="downloadNow.apple.small">متاح الآن على</small>
+              <span>App Store</span>
+            </div>
+            <span class="badge-glare"></span>
+          </a>
+          <a href="#" class="store-badge google" data-i18n="[aria-label]downloadNow.google.aria">
+            <div class="store-logo">
+              <svg viewBox="0 0 512 512" aria-hidden="true">
+                <path d="M325.3 234.3L104.4 13.1c-7.3-7.3-17.5-9.7-26.7-7.2L279.1 208l46.2 46.3z" />
+                <path d="M438.8 212.4L366.4 170l-61.1 61.1 66 66 67.5-38.8c11.1-6.4 18-18.2 18-30.9-.1-12.7-7-24.3-18-30.8z"/>
+                <path d="M77.7 506.1c9.2 2.5 19.4.1 26.7-7.2l220.8-221-46.1-46.1-201.4 201.4c-10.8 10.9-10.3 28.3.0 39.0z"/>
+                <path d="M279.1 304L77.7 505.4c3.4.9 6.9 1 10.3 0.1L381 349.7l-101.9-45.7z"/>
+              </svg>
+            </div>
+            <div class="store-text">
+              <small data-i18n="downloadNow.google.small">حمل التطبيق من</small>
+              <span>Google Play</span>
+            </div>
+            <span class="badge-glare"></span>
+          </a>
+        </div>
+      </div>
+      <div class="download-now-visual">
+        <div class="orbital-ring ring-one"></div>
+        <div class="orbital-ring ring-two"></div>
+        <div class="floating-pulse pulse-one"></div>
+        <div class="floating-pulse pulse-two"></div>
+        <div class="download-now-device">
+          <div class="device-header">
+            <span data-i18n="downloadNow.device.title">جدول حفظك اليوم</span>
+            <i class="fas fa-sun"></i>
+          </div>
+          <div class="device-track">
+            <div class="track-item">
+              <div>
+                <p data-i18n="downloadNow.device.item1.title">ورد الفجر</p>
+                <small data-i18n="downloadNow.device.item1.desc">٥ صفحات من سورة يس</small>
+              </div>
+              <span>80%</span>
+            </div>
+            <div class="track-item">
+              <div>
+                <p data-i18n="downloadNow.device.item2.title">تحدي الأذكار</p>
+                <small data-i18n="downloadNow.device.item2.desc">٣٠ ذكر متتالي</small>
+              </div>
+              <span class="status-chip" data-i18n="downloadNow.device.item2.status">مكتمل</span>
+            </div>
+            <div class="track-item">
+              <div>
+                <p data-i18n="downloadNow.device.item3.title">جلسة المراجعة</p>
+                <small data-i18n="downloadNow.device.item3.desc">يبقى ١٠ دقائق</small>
+              </div>
+              <span><i class="fas fa-bell"></i></span>
+            </div>
+          </div>
+          <button class="device-cta" data-i18n="downloadNow.device.cta">ابدأ الحفظ المتحرك</button>
+          <div class="device-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-pattern footer-pattern-1"></div>
+    <div class="footer-pattern footer-pattern-2"></div>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section footer-brand">
+          <div class="footer-logo">
+            <img src="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" alt="الف لام ميم">
+          </div>
+          <h3 data-i18n="footer.brand.title">أكاديمية الف لام ميم</h3>
+          <p data-i18n="footer.brand.desc">منصة تحفيظ قرآنية رقمية تجمع بين التقاليد الأصيلة والتكنولوجيا الحديثة لمساعدتك على حفظ القرآن بإتقان.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="فيسبوك" data-i18n="[aria-label]footer.social.facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="تويتر" data-i18n="[aria-label]footer.social.twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="إنستغرام" data-i18n="[aria-label]footer.social.instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/+201055661614" target="_blank" class="social-link" aria-label="واتساب" data-i18n="[aria-label]footer.social.whatsapp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="يوتيوب" data-i18n="[aria-label]footer.social.youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-section footer-links">
+          <h4 data-i18n="footer.links.title">روابط سريعة</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="footer.links.home">الرئيسية</a></li>
+            <li><a href="#" data-i18n="footer.links.about">من نحن</a></li>
+            <li><a href="#" data-i18n="footer.links.features">المميزات</a></li>
+            <li><a href="#" data-i18n="footer.links.courses">الكورسات</a></li>
+            <li><a href="#" data-i18n="footer.links.contact">تواصل معنا</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section footer-legal">
+          <h4 data-i18n="footer.legal.title">معلومات قانونية</h4>
+          <ul>
+            <li><a href="privacy.html" data-i18n="footer.legal.privacy">سياسة الخصوصية</a></li>
+            <li><a href="terms.html" data-i18n="footer.legal.terms">الشروط والأحكام</a></li>
+            <li><a href="#" data-i18n="footer.legal.refund">سياسة الاسترجاع</a></li>
+            <li><a href="#" data-i18n="footer.legal.cookies">سياسة الكوكيز</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section footer-download">
+          <h4 data-i18n="footer.download.title">حمل التطبيق</h4>
+          <p data-i18n="footer.download.desc">احصل على تجربة كاملة على هاتفك المحمول</p>
+          <div class="footer-store-buttons">
+            <a href="#" class="footer-store-btn apple">
+              <i class="fab fa-apple"></i>
+              <div>
+                <small data-i18n="footer.download.apple.small">متاح على</small>
+                <span>App Store</span>
+              </div>
+            </a>
+            <a href="#" class="footer-store-btn google">
+              <i class="fab fa-google-play"></i>
+              <div>
+                <small data-i18n="footer.download.google.small">حمل من</small>
+                <span>Google Play</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <p data-i18n="footer.copyright">&copy; 2025 أكاديمية الف لام ميم. جميع الحقوق محفوظة.</p>
+        </div>
+        <div class="footer-made">
+          <p data-i18n="footer.made">صُنع بـ <i class="fas fa-heart"></i> من أجل خدمة القرآن الكريم</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+  <script src="template/js/jquery-3.2.1.min.js"></script>
+  <script src="template/js/bootstrap.bundle.min.js"></script>
+  <script src="template/js/swiper-bundle.min.js"></script>
+  <script src="template/js/main.js"></script>
+</body>
+</html>

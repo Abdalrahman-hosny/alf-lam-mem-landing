@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" type="image/x-icon">
+  <link rel="stylesheet" href="template/css/bootstrap.min.css">
+  <link rel="stylesheet" href="template/css/all.css">
+  <link rel="stylesheet" href="template/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="template/css/style.css">
+  <link rel="stylesheet" href="template/css/animations.css">
+  <title>الشروط والأحكام - الف لام ميم</title>
+</head>
+<body>
+  <!-- Loading Page -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <div class="loader-logo">
+        <img src="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" alt="الف لام ميم">
+      </div>
+      <div class="loader-text">
+        <h3 data-i18n="loader.title">أكاديمية الف لام ميم</h3>
+        <p data-i18n="loader.subtitle">منصة تحفيظ قرآنية معاصرة</p>
+      </div>
+      <div class="loader-spinner">
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" id="scrollToTop" aria-label="العودة للأعلى">
+    <i class="fas fa-arrow-up"></i>
+    <svg class="scroll-progress" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
+    </svg>
+  </button>
+
+  <!-- Navbar -->
+  <nav class="main-navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <!-- Logo -->
+        <div class="navbar-logo">
+          <img src="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" alt="الف لام ميم" class="logo-img">
+        </div>
+        
+        <!-- Navigation Links -->
+        <ul class="navbar-links">
+          <li><a href="index.html" class="nav-link" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="privacy.html" class="nav-link" data-i18n="nav.privacy">سياسة الخصوصية</a></li>
+          <li><a href="refund.html" class="nav-link" data-i18n="nav.refund">سياسة الاسترجاع والاسترداد</a></li>
+          <li><a href="terms.html" class="nav-link active" data-i18n="nav.terms">الشروط والأحكام</a></li>
+        </ul>
+        
+        <!-- Language Switcher -->
+        <div class="language-switcher">
+          <button class="lang-toggle" aria-label="تغيير اللغة">
+            <i class="fas fa-globe"></i>
+            <span class="current-lang">AR</span>
+            <i class="fas fa-chevron-down lang-arrow"></i>
+          </button>
+          <div class="lang-dropdown">
+            <button class="lang-option active" data-lang="ar" data-dir="rtl">
+              <span class="lang-flag">🇸🇦</span>
+              <span class="lang-name">العربية</span>
+              <i class="fas fa-check"></i>
+            </button>
+            <button class="lang-option" data-lang="en" data-dir="ltr">
+              <span class="lang-flag">🇬🇧</span>
+              <span class="lang-name">English</span>
+              <i class="fas fa-check"></i>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Contact Button -->
+        <a href="#" class="contact-btn" data-i18n="nav.contact">تواصل معنا</a>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" aria-label="قائمة التنقل">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      
+      <!-- Mobile Menu -->
+      <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+          <li><a href="index.html" class="mobile-nav-link" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="about.html" class="mobile-nav-link" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="privacy.html" class="mobile-nav-link" data-i18n="nav.privacy">سياسة الخصوصية</a></li>
+          <li><a href="refund.html" class="mobile-nav-link" data-i18n="nav.refund">سياسة الاسترجاع والاسترداد</a></li>
+          <li><a href="terms.html" class="mobile-nav-link active" data-i18n="nav.terms">الشروط والأحكام</a></li>
+          <li class="mobile-lang-item">
+            <div class="mobile-lang-switcher">
+              <button class="mobile-lang-option active" data-lang="ar" data-dir="rtl">
+                <span class="lang-flag">🇸🇦</span>
+                <span class="lang-name">العربية</span>
+                <i class="fas fa-check"></i>
+              </button>
+              <button class="mobile-lang-option" data-lang="en" data-dir="ltr">
+                <span class="lang-flag">🇬🇧</span>
+                <span class="lang-name">English</span>
+                <i class="fas fa-check"></i>
+              </button>
+            </div>
+          </li>
+          <li><a href="#" class="mobile-contact-btn" data-i18n="nav.contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Terms Hero Section -->
+  <section class="refund-hero">
+    <div class="container">
+      <div class="refund-hero-content">
+        <div class="refund-hero-icon">
+          <i class="fas fa-file-contract"></i>
+        </div>
+        <h1 data-i18n="terms.hero.title">الشروط والأحكام</h1>
+        <p data-i18n="terms.hero.desc">مرحبًا بك في أكاديمية الف لام ميم. يرجى قراءة هذه الشروط والأحكام بعناية قبل استخدام خدماتنا. باستخدامك لخدماتنا، فإنك توافق على الالتزام بهذه الشروط.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Terms Content Section -->
+  <section class="refund-content">
+    <div class="container">
+      <!-- Introduction -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-info-circle"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="terms.intro.title">مقدمة</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="terms.intro.p1">هذه الشروط والأحكام ("الشروط") تحكم استخدامك لتطبيق وخدمات أكاديمية الف لام ميم. باستخدامك لخدماتنا، فإنك تقر بأنك قد قرأت وفهمت ووافقت على الالتزام بهذه الشروط.</p>
+            <p data-i18n="terms.intro.p2">إذا كنت لا توافق على أي من هذه الشروط، يرجى عدم استخدام خدماتنا. نحن نحتفظ بالحق في تعديل هذه الشروط في أي وقت، وسيتم إشعارك بأي تغييرات جوهرية.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Acceptance of Terms -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="terms.acceptance.title">قبول الشروط</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="terms.acceptance.desc">باستخدامك لخدماتنا، فإنك تقر وتوافق على:</p>
+            <ul>
+              <li data-i18n="terms.acceptance.1">أنك قد قرأت وفهمت هذه الشروط والأحكام</li>
+              <li data-i18n="terms.acceptance.2">أنك توافق على الالتزام بجميع الشروط المذكورة</li>
+              <li data-i18n="terms.acceptance.3">أنك تتحمل المسؤولية الكاملة عن استخدامك للخدمة</li>
+              <li data-i18n="terms.acceptance.4">أنك تلتزم بالقوانين واللوائح المحلية والدولية</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Account Registration -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-user-plus"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="terms.account.title">تسجيل الحساب</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="terms.account.desc">للاستفادة من خدماتنا، قد تحتاج إلى إنشاء حساب:</p>
+            <ul>
+              <li data-i18n="terms.account.1">يجب أن تكون المعلومات المقدمة دقيقة وكاملة</li>
+              <li data-i18n="terms.account.2">أنت مسؤول عن الحفاظ على سرية معلومات تسجيل الدخول</li>
+              <li data-i18n="terms.account.3">يجب أن تكون 18 عامًا أو أكثر، أو لديك موافقة ولي الأمر</li>
+              <li data-i18n="terms.account.4">أنت مسؤول عن جميع الأنشطة التي تحدث تحت حسابك</li>
+              <li data-i18n="terms.account.5">يجب إبلاغنا فورًا عن أي استخدام غير مصرح به لحسابك</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Use of Service -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="terms.use.title">استخدام الخدمة</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="terms.use.desc">يجب استخدام خدماتنا بشكل قانوني ومسؤول:</p>
+            <ul>
+              <li data-i18n="terms.use.1">لا يجوز استخدام الخدمة لأغراض غير قانونية أو غير أخلاقية</li>
+              <li data-i18n="terms.use.2">لا يجوز محاولة الوصول غير المصرح به إلى أنظمتنا</li>
+              <li data-i18n="terms.use.3">لا يجوز نسخ أو توزيع المحتوى دون إذن</li>
+              <li data-i18n="terms.use.4">يجب احترام حقوق الملكية الفكرية</li>
+              <li data-i18n="terms.use.5">لا يجوز استخدام الخدمة لإزعاج أو إيذاء الآخرين</li>
+            </ul>
+            <div class="refund-highlight">
+              <strong data-i18n="terms.use.note.title">ملاحظة مهمة:</strong>
+              <p data-i18n="terms.use.note.desc">نحتفظ بالحق في تعليق أو إنهاء حسابك في حالة انتهاك هذه الشروط.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Intellectual Property -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-copyright"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="terms.ip.title">الملكية الفكرية</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="terms.ip.desc">جميع المحتويات والمواد في خدماتنا محمية بحقوق الملكية الفكرية:</p>
+            <ul>
+              <li data-i18n="terms.ip.1">جميع المحتويات التعليمية مملوكة لأكاديمية الف لام ميم</li>
+              <li data-i18n="terms.ip.2">لا يجوز نسخ أو توزيع أو تعديل المحتوى دون إذن كتابي</li>
+              <li data-i18n="terms.ip.3">يمكنك استخدام المحتوى للاستخدام الشخصي والتعليمي فقط</li>
+              <li data-i18n="terms.ip.4">جميع العلامات التجارية والشعارات محمية</li>
+            </ul>
+            <p data-i18n="terms.ip.note">أي انتهاك لحقوق الملكية الفكرية قد يؤدي إلى اتخاذ إجراءات قانونية.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Payments and Subscriptions -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-credit-card"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="terms.payment.title">المدفوعات والاشتراكات</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="terms.payment.desc">بخصوص المدفوعات والاشتراكات:</p>
+            <ul>
+              <li data-i18n="terms.payment.1">جميع الأسعار معروضة بالعملة المحلية وقد تتغير</li>
+              <li data-i18n="terms.payment.2">الاشتراكات تتجدد تلقائيًا ما لم يتم الإلغاء</li>
+              <li data-i18n="terms.payment.3">أنت مسؤول عن جميع الرسوم المرتبطة بحسابك</li>
+              <li data-i18n="terms.payment.4">نحتفظ بالحق في تغيير الأسعار مع إشعار مسبق</li>
+              <li data-i18n="terms.payment.5">الاسترجاع يخضع لسياسة الاسترجاع والاسترداد</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- User Content -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-user-edit"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="terms.content.title">محتوى المستخدم</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="terms.content.desc">بخصوص المحتوى الذي تقدمه:</p>
+            <ul>
+              <li data-i18n="terms.content.1">أنت تحتفظ بحقوق الملكية لمحتواك</li>
+              <li data-i18n="terms.content.2">بإرسال المحتوى، تمنحنا ترخيصًا لاستخدامه في الخدمة</li>
+              <li data-i18n="terms.content.3">يجب ألا يحتوي المحتوى على مواد مسيئة أو غير قانونية</li>
+              <li data-i18n="terms.content.4">نحتفظ بالحق في إزالة أي محتوى غير مناسب</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Limitation of Liability -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="terms.liability.title">تحديد المسؤولية</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="terms.liability.desc">في حدود القانون المسموح:</p>
+            <ul>
+              <li data-i18n="terms.liability.1">نقدم الخدمة "كما هي" دون ضمانات صريحة أو ضمنية</li>
+              <li data-i18n="terms.liability.2">لا نضمن عدم انقطاع الخدمة أو خلوها من الأخطاء</li>
+              <li data-i18n="terms.liability.3">لن نكون مسؤولين عن أي أضرار غير مباشرة أو عرضية</li>
+              <li data-i18n="terms.liability.4">مسؤوليتنا محدودة بمبلغ الاشتراك المدفوع</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Termination -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-ban"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="terms.termination.title">إنهاء الخدمة</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="terms.termination.desc">يمكن إنهاء حسابك في الحالات التالية:</p>
+            <ul>
+              <li data-i18n="terms.termination.1">إذا انتهكت هذه الشروط والأحكام</li>
+              <li data-i18n="terms.termination.2">إذا قمت بأنشطة غير قانونية أو ضارة</li>
+              <li data-i18n="terms.termination.3">إذا طلبت الإنهاء بنفسك</li>
+              <li data-i18n="terms.termination.4">إذا لم تدفع الرسوم المستحقة</li>
+            </ul>
+            <p data-i18n="terms.termination.note">في حالة الإنهاء، قد نفقد الوصول إلى بياناتك ومحتواك.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Changes to Terms -->
+      <div class="refund-section">
+        <div class="refund-card">
+          <div class="refund-card-header">
+            <div class="refund-card-icon">
+              <i class="fas fa-sync-alt"></i>
+            </div>
+            <h2 class="refund-card-title" data-i18n="terms.changes.title">تغييرات الشروط</h2>
+          </div>
+          <div class="refund-card-content">
+            <p data-i18n="terms.changes.desc">نحتفظ بالحق في تعديل هذه الشروط في أي وقت:</p>
+            <ul>
+              <li data-i18n="terms.changes.1">سيتم إشعارك بأي تغييرات جوهرية</li>
+              <li data-i18n="terms.changes.2">استمرار استخدامك للخدمة يعني موافقتك على الشروط المحدثة</li>
+              <li data-i18n="terms.changes.3">إذا لم توافق على التغييرات، يمكنك إلغاء حسابك</li>
+            </ul>
+            <p data-i18n="terms.changes.note">ننصحك بمراجعة هذه الشروط بانتظام للبقاء على اطلاع.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="refund-contact-box">
+        <h3 data-i18n="terms.contact.title">هل لديك أسئلة؟</h3>
+        <p data-i18n="terms.contact.desc">إذا كان لديك أي أسئلة حول هذه الشروط والأحكام أو تحتاج إلى توضيحات، لا تتردد في التواصل معنا. نحن هنا لمساعدتك.</p>
+        <a href="https://wa.me/+201055661614" target="_blank" class="refund-contact-btn">
+          <i class="fab fa-whatsapp"></i>
+          <span data-i18n="terms.contact.btn">تواصل معنا عبر الواتساب</span>
+        </a>
+      </div>
+
+      <!-- Last Updated -->
+      <div class="refund-last-updated">
+        <p><strong data-i18n="terms.updated.title">آخر تحديث:</strong> <span data-i18n="terms.updated.date">يناير 2025</span></p>
+        <p data-i18n="terms.updated.desc">هذه الشروط سارية المفعول اعتبارًا من تاريخ آخر تحديث أعلاه.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-pattern footer-pattern-1"></div>
+    <div class="footer-pattern footer-pattern-2"></div>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section footer-brand">
+          <div class="footer-logo">
+            <img src="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" alt="الف لام ميم">
+          </div>
+          <h3 data-i18n="footer.brand.title">أكاديمية الف لام ميم</h3>
+          <p data-i18n="footer.brand.desc">منصة تحفيظ قرآنية رقمية تجمع بين التقاليد الأصيلة والتكنولوجيا الحديثة لمساعدتك على حفظ القرآن بإتقان.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="فيسبوك" data-i18n="[aria-label]footer.social.facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="تويتر" data-i18n="[aria-label]footer.social.twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="إنستغرام" data-i18n="[aria-label]footer.social.instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/+201055661614" target="_blank" class="social-link" aria-label="واتساب" data-i18n="[aria-label]footer.social.whatsapp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="يوتيوب" data-i18n="[aria-label]footer.social.youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-section footer-links">
+          <h4 data-i18n="footer.links.title">روابط سريعة</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="footer.links.home">الرئيسية</a></li>
+            <li><a href="#" data-i18n="footer.links.about">من نحن</a></li>
+            <li><a href="#" data-i18n="footer.links.features">المميزات</a></li>
+            <li><a href="#" data-i18n="footer.links.courses">الكورسات</a></li>
+            <li><a href="#" data-i18n="footer.links.contact">تواصل معنا</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section footer-legal">
+          <h4 data-i18n="footer.legal.title">معلومات قانونية</h4>
+          <ul>
+            <li><a href="privacy.html" data-i18n="footer.legal.privacy">سياسة الخصوصية</a></li>
+            <li><a href="terms.html" data-i18n="footer.legal.terms">الشروط والأحكام</a></li>
+            <li><a href="refund.html" data-i18n="footer.legal.refund">سياسة الاسترجاع</a></li>
+            <li><a href="#" data-i18n="footer.legal.cookies">سياسة الكوكيز</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section footer-download">
+          <h4 data-i18n="footer.download.title">حمل التطبيق</h4>
+          <p data-i18n="footer.download.desc">احصل على تجربة كاملة على هاتفك المحمول</p>
+          <div class="footer-store-buttons">
+            <a href="#" class="footer-store-btn apple">
+              <i class="fab fa-apple"></i>
+              <div>
+                <small data-i18n="footer.download.apple.small">متاح على</small>
+                <span>App Store</span>
+              </div>
+            </a>
+            <a href="#" class="footer-store-btn google">
+              <i class="fab fa-google-play"></i>
+              <div>
+                <small data-i18n="footer.download.google.small">حمل من</small>
+                <span>Google Play</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <p data-i18n="footer.copyright">&copy; 2025 أكاديمية الف لام ميم. جميع الحقوق محفوظة.</p>
+        </div>
+        <div class="footer-made">
+          <p data-i18n="footer.made">صُنع بـ <i class="fas fa-heart"></i> من أجل خدمة القرآن الكريم</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+  <script src="template/js/jquery-3.2.1.min.js"></script>
+  <script src="template/js/bootstrap.bundle.min.js"></script>
+  <script src="template/js/swiper-bundle.min.js"></script>
+  <script src="template/js/main.js"></script>
+</body>
+</html>
+

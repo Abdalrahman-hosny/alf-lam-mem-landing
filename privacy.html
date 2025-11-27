@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" type="image/x-icon">
+  <link rel="stylesheet" href="template/css/bootstrap.min.css">
+  <link rel="stylesheet" href="template/css/all.css">
+  <link rel="stylesheet" href="template/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="template/css/style.css">
+  <link rel="stylesheet" href="template/css/animations.css">
+  <title>سياسة الخصوصية - الف لام ميم</title>
+</head>
+<body>
+
+  <!-- Loading Page -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <div class="loader-logo">
+        <img src="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" alt="الف لام ميم">
+      </div>
+      <div class="loader-text">
+        <h3 data-i18n="loader.title">أكاديمية الف لام ميم</h3>
+        <p data-i18n="loader.subtitle">منصة تحفيظ قرآنية معاصرة</p>
+      </div>
+      <div class="loader-spinner">
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" id="scrollToTop" aria-label="العودة للأعلى">
+    <i class="fas fa-arrow-up"></i>
+    <svg class="scroll-progress" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
+    </svg>
+  </button>
+
+
+
+  <!-- Navbar -->
+  <nav class="main-navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <!-- Logo -->
+        <div class="navbar-logo">
+          <img src="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" alt="الف لام ميم" class="logo-img">
+        </div>
+        
+        <!-- Navigation Links -->
+        <ul class="navbar-links">
+          <li><a href="index.html" class="nav-link" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="privacy.html" class="nav-link active" data-i18n="nav.privacy">سياسة الخصوصية</a></li>
+          <li><a href="refund.html" class="nav-link" data-i18n="nav.refund">سياسة الاسترجاع والاسترداد</a></li>
+          <li><a href="terms.html" class="nav-link" data-i18n="nav.terms">الشروط والأحكام</a></li>
+        </ul>
+        
+        <!-- Language Switcher -->
+        <div class="language-switcher">
+          <button class="lang-toggle" aria-label="تغيير اللغة">
+            <i class="fas fa-globe"></i>
+            <span class="current-lang">AR</span>
+            <i class="fas fa-chevron-down lang-arrow"></i>
+          </button>
+          <div class="lang-dropdown">
+            <button class="lang-option active" data-lang="ar" data-dir="rtl">
+              <span class="lang-flag">🇸🇦</span>
+              <span class="lang-name">العربية</span>
+              <i class="fas fa-check"></i>
+            </button>
+            <button class="lang-option" data-lang="en" data-dir="ltr">
+              <span class="lang-flag">🇬🇧</span>
+              <span class="lang-name">English</span>
+              <i class="fas fa-check"></i>
+            </button>
+          </div>
+        </div>
+        
+        <!-- Contact Button -->
+        <a href="#" class="contact-btn" data-i18n="nav.contact">تواصل معنا</a>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" aria-label="قائمة التنقل">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      
+      <!-- Mobile Menu -->
+      <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+          <li><a href="index.html" class="mobile-nav-link" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="about.html" class="mobile-nav-link" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="privacy.html" class="mobile-nav-link active" data-i18n="nav.privacy">سياسة الخصوصية</a></li>
+          <li><a href="refund.html" class="mobile-nav-link" data-i18n="nav.refund">سياسة الاسترجاع والاسترداد</a></li>
+          <li><a href="terms.html" class="mobile-nav-link" data-i18n="nav.terms">الشروط والأحكام</a></li>
+          <li class="mobile-lang-item">
+            <div class="mobile-lang-switcher">
+              <button class="mobile-lang-option active" data-lang="ar" data-dir="rtl">
+                <span class="lang-flag">🇸🇦</span>
+                <span class="lang-name">العربية</span>
+                <i class="fas fa-check"></i>
+              </button>
+              <button class="mobile-lang-option" data-lang="en" data-dir="ltr">
+                <span class="lang-flag">🇬🇧</span>
+                <span class="lang-name">English</span>
+                <i class="fas fa-check"></i>
+              </button>
+            </div>
+          </li>
+          <li><a href="#" class="mobile-contact-btn" data-i18n="nav.contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Privacy Hero Section -->
+  <section class="privacy-hero">
+    <div class="container">
+      <div class="privacy-hero-content">
+        <div class="privacy-hero-icon">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <h1 data-i18n="privacy.hero.title">سياسة الخصوصية</h1>
+        <p data-i18n="privacy.hero.desc">نحن في أكاديمية الف لام ميم ملتزمون بحماية خصوصيتك وأمان بياناتك. هذه السياسة توضح كيفية جمع واستخدام وحماية معلوماتك الشخصية.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy Content Section -->
+  <section class="privacy-content">
+    <div class="container">
+      <!-- Introduction -->
+      <div class="privacy-section">
+        <div class="privacy-card">
+          <div class="privacy-card-header">
+            <div class="privacy-card-icon">
+              <i class="fas fa-info-circle"></i>
+            </div>
+            <h2 class="privacy-card-title" data-i18n="privacy.intro.title">مقدمة</h2>
+          </div>
+          <div class="privacy-card-content">
+            <p data-i18n="privacy.intro.p1">نرحب بك في أكاديمية الف لام ميم. نحن ندرك أهمية خصوصيتك ونلتزم بحماية معلوماتك الشخصية. تشرح سياسة الخصوصية هذه كيفية جمع واستخدام وحماية معلوماتك عند استخدام تطبيقنا وخدماتنا.</p>
+            <p data-i18n="privacy.intro.p2">باستخدامك لتطبيقنا وخدماتنا، فإنك توافق على ممارسات جمع واستخدام المعلومات الموضحة في هذه السياسة. إذا كنت لا توافق على هذه السياسة، يرجى عدم استخدام خدماتنا.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Information We Collect -->
+      <div class="privacy-section">
+        <div class="privacy-card">
+          <div class="privacy-card-header">
+            <div class="privacy-card-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h2 class="privacy-card-title" data-i18n="privacy.collect.title">المعلومات التي نجمعها</h2>
+          </div>
+          <div class="privacy-card-content">
+            <p data-i18n="privacy.collect.desc">نجمع أنواعًا مختلفة من المعلومات لتوفير وتحسين خدماتنا:</p>
+            <ul>
+              <li><strong data-i18n="privacy.collect.personal">المعلومات الشخصية:</strong> <span data-i18n="privacy.collect.personal.desc">الاسم، البريد الإلكتروني، رقم الهاتف، تاريخ الميلاد، ومعلومات أخرى تقدمها عند التسجيل.</span></li>
+              <li><strong data-i18n="privacy.collect.account">معلومات الحساب:</strong> <span data-i18n="privacy.collect.account.desc">اسم المستخدم، كلمة المرور (مشفرة)، وتفضيلات الحساب.</span></li>
+              <li><strong data-i18n="privacy.collect.progress">معلومات التقدم:</strong> <span data-i18n="privacy.collect.progress.desc">سجلات الحفظ، نتائج الاختبارات، ومستوى التقدم في الكورسات.</span></li>
+              <li><strong data-i18n="privacy.collect.device">معلومات الجهاز:</strong> <span data-i18n="privacy.collect.device.desc">نوع الجهاز، نظام التشغيل، معرف الجهاز الفريد، وعنوان IP.</span></li>
+              <li><strong data-i18n="privacy.collect.usage">معلومات الاستخدام:</strong> <span data-i18n="privacy.collect.usage.desc">كيفية استخدامك للتطبيق، الميزات التي تستخدمها، ومدة الجلسات.</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- How We Use Information -->
+      <div class="privacy-section">
+        <div class="privacy-card">
+          <div class="privacy-card-header">
+            <div class="privacy-card-icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <h2 class="privacy-card-title" data-i18n="privacy.use.title">كيف نستخدم المعلومات</h2>
+          </div>
+          <div class="privacy-card-content">
+            <p data-i18n="privacy.use.desc">نستخدم المعلومات التي نجمعها للأغراض التالية:</p>
+            <ul>
+              <li data-i18n="privacy.use.1">توفير وصيانة وتحسين خدماتنا التعليمية</li>
+              <li data-i18n="privacy.use.2">إنشاء وإدارة حسابك الشخصي</li>
+              <li data-i18n="privacy.use.3">تتبع تقدمك في الحفظ والمراجعة</li>
+              <li data-i18n="privacy.use.4">إرسال إشعارات مهمة حول حسابك وخدماتنا</li>
+              <li data-i18n="privacy.use.5">تقديم الدعم الفني والرد على استفساراتك</li>
+              <li data-i18n="privacy.use.6">تحليل استخدام التطبيق لتحسين تجربة المستخدم</li>
+              <li data-i18n="privacy.use.7">ضمان الأمان ومنع الاحتيال</li>
+              <li data-i18n="privacy.use.8">الامتثال للالتزامات القانونية</li>
+            </ul>
+            <div class="privacy-highlight">
+              <strong data-i18n="privacy.use.note.title">ملاحظة مهمة:</strong>
+              <p data-i18n="privacy.use.note.desc">نحن لا نبيع معلوماتك الشخصية لأطراف ثالثة. نستخدم معلوماتك فقط لتحسين تجربتك التعليمية وتقديم أفضل خدمة ممكنة.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Security -->
+      <div class="privacy-section">
+        <div class="privacy-card">
+          <div class="privacy-card-header">
+            <div class="privacy-card-icon">
+              <i class="fas fa-lock"></i>
+            </div>
+            <h2 class="privacy-card-title" data-i18n="privacy.security.title">أمان البيانات</h2>
+          </div>
+          <div class="privacy-card-content">
+            <p data-i18n="privacy.security.desc">نحن نأخذ أمان بياناتك على محمل الجد ونستخدم تدابير أمنية متقدمة لحماية معلوماتك:</p>
+            <ul>
+              <li><strong data-i18n="privacy.security.encryption">التشفير:</strong> <span data-i18n="privacy.security.encryption.desc">نستخدم تشفير SSL/TLS لحماية البيانات المنقولة</span></li>
+              <li><strong data-i18n="privacy.security.password">حماية كلمات المرور:</strong> <span data-i18n="privacy.security.password.desc">كلمات المرور مشفرة باستخدام خوارزميات آمنة</span></li>
+              <li><strong data-i18n="privacy.security.access">الوصول المقيد:</strong> <span data-i18n="privacy.security.access.desc">فقط الموظفون المصرح لهم يمكنهم الوصول إلى معلوماتك الشخصية</span></li>
+              <li><strong data-i18n="privacy.security.backup">النسخ الاحتياطي الآمن:</strong> <span data-i18n="privacy.security.backup.desc">بياناتك محفوظة بشكل آمن مع نسخ احتياطية منتظمة</span></li>
+              <li><strong data-i18n="privacy.security.updates">التحديثات الأمنية:</strong> <span data-i18n="privacy.security.updates.desc">نحدث أنظمتنا بانتظام لمواجهة التهديدات الجديدة</span></li>
+            </ul>
+            <p data-i18n="privacy.security.warning">على الرغم من جهودنا، لا يمكن ضمان الأمان المطلق 100%. ننصحك بعدم مشاركة معلومات تسجيل الدخول الخاصة بك مع أي شخص.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Sharing -->
+      <div class="privacy-section">
+        <div class="privacy-card">
+          <div class="privacy-card-header">
+            <div class="privacy-card-icon">
+              <i class="fas fa-share-alt"></i>
+            </div>
+            <h2 class="privacy-card-title" data-i18n="privacy.sharing.title">مشاركة البيانات</h2>
+          </div>
+          <div class="privacy-card-content">
+            <p data-i18n="privacy.sharing.desc">نحن لا نبيع أو نؤجر معلوماتك الشخصية لأطراف ثالثة. قد نشارك معلوماتك في الحالات التالية فقط:</p>
+            <ul>
+              <li><strong data-i18n="privacy.sharing.services">مقدمي الخدمات:</strong> <span data-i18n="privacy.sharing.services.desc">مع شركاء موثوقين يساعدوننا في تشغيل خدماتنا (مثل استضافة البيانات، الدفع)</span></li>
+              <li><strong data-i18n="privacy.sharing.legal">الالتزام القانوني:</strong> <span data-i18n="privacy.sharing.legal.desc">عندما يتطلب القانون ذلك أو لحماية حقوقنا القانونية</span></li>
+              <li><strong data-i18n="privacy.sharing.consent">الموافقة:</strong> <span data-i18n="privacy.sharing.consent.desc">عندما تمنحنا موافقة صريحة للمشاركة</span></li>
+              <li><strong data-i18n="privacy.sharing.safety">حماية الأمان:</strong> <span data-i18n="privacy.sharing.safety.desc">لحماية أمان المستخدمين ومنع الاحتيال</span></li>
+            </ul>
+            <p data-i18n="privacy.sharing.note">جميع مقدمي الخدمات لدينا ملزمون بمعايير أمنية صارمة ولا يمكنهم استخدام معلوماتك لأغراض أخرى.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Your Rights -->
+      <div class="privacy-section">
+        <div class="privacy-card">
+          <div class="privacy-card-header">
+            <div class="privacy-card-icon">
+              <i class="fas fa-user-shield"></i>
+            </div>
+            <h2 class="privacy-card-title" data-i18n="privacy.rights.title">حقوقك</h2>
+          </div>
+          <div class="privacy-card-content">
+            <p data-i18n="privacy.rights.desc">لديك حقوق معينة فيما يتعلق بمعلوماتك الشخصية:</p>
+            <ul>
+              <li><strong data-i18n="privacy.rights.access">حق الوصول:</strong> <span data-i18n="privacy.rights.access.desc">يمكنك طلب نسخة من معلوماتك الشخصية</span></li>
+              <li><strong data-i18n="privacy.rights.correction">حق التصحيح:</strong> <span data-i18n="privacy.rights.correction.desc">يمكنك تحديث أو تصحيح معلوماتك في أي وقت</span></li>
+              <li><strong data-i18n="privacy.rights.deletion">حق الحذف:</strong> <span data-i18n="privacy.rights.deletion.desc">يمكنك طلب حذف حسابك ومعلوماتك الشخصية</span></li>
+              <li><strong data-i18n="privacy.rights.objection">حق الاعتراض:</strong> <span data-i18n="privacy.rights.objection.desc">يمكنك الاعتراض على معالجة معلوماتك في حالات معينة</span></li>
+              <li><strong data-i18n="privacy.rights.portability">حق نقل البيانات:</strong> <span data-i18n="privacy.rights.portability.desc">يمكنك طلب نقل بياناتك إلى خدمة أخرى</span></li>
+              <li><strong data-i18n="privacy.rights.withdrawal">حق سحب الموافقة:</strong> <span data-i18n="privacy.rights.withdrawal.desc">يمكنك سحب موافقتك في أي وقت</span></li>
+            </ul>
+            <p data-i18n="privacy.rights.contact">لممارسة أي من هذه الحقوق، يرجى التواصل معنا عبر البريد الإلكتروني أو من خلال التطبيق.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cookies and Tracking -->
+      <div class="privacy-section">
+        <div class="privacy-card">
+          <div class="privacy-card-header">
+            <div class="privacy-card-icon">
+              <i class="fas fa-cookie"></i>
+            </div>
+            <h2 class="privacy-card-title" data-i18n="privacy.cookies.title">ملفات تعريف الارتباط والتتبع</h2>
+          </div>
+          <div class="privacy-card-content">
+            <p data-i18n="privacy.cookies.desc">نستخدم ملفات تعريف الارتباط والتقنيات المشابهة لتحسين تجربتك:</p>
+            <ul>
+              <li><strong data-i18n="privacy.cookies.essential">ملفات تعريف الارتباط الضرورية:</strong> <span data-i18n="privacy.cookies.essential.desc">مطلوبة لعمل التطبيق بشكل صحيح</span></li>
+              <li><strong data-i18n="privacy.cookies.functional">ملفات تعريف الارتباط الوظيفية:</strong> <span data-i18n="privacy.cookies.functional.desc">تحفظ تفضيلاتك وإعداداتك</span></li>
+              <li><strong data-i18n="privacy.cookies.analytical">ملفات تعريف الارتباط التحليلية:</strong> <span data-i18n="privacy.cookies.analytical.desc">تساعدنا في فهم كيفية استخدام التطبيق</span></li>
+            </ul>
+            <p data-i18n="privacy.cookies.manage">يمكنك إدارة تفضيلات ملفات تعريف الارتباط من خلال إعدادات التطبيق أو المتصفح.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Children's Privacy -->
+      <div class="privacy-section">
+        <div class="privacy-card">
+          <div class="privacy-card-header">
+            <div class="privacy-card-icon">
+              <i class="fas fa-child"></i>
+            </div>
+            <h2 class="privacy-card-title" data-i18n="privacy.children.title">خصوصية الأطفال</h2>
+          </div>
+          <div class="privacy-card-content">
+            <p data-i18n="privacy.children.desc">خدماتنا موجهة للأطفال تحت إشراف أولياء الأمور. نحن:</p>
+            <ul>
+              <li data-i18n="privacy.children.1">نجمع معلومات الأطفال فقط بموافقة ولي الأمر</li>
+              <li data-i18n="privacy.children.2">نوفر أدوات للآباء لمراقبة وإدارة حسابات أطفالهم</li>
+              <li data-i18n="privacy.children.3">لا نشارك معلومات الأطفال مع أطراف ثالثة دون موافقة ولي الأمر</li>
+              <li data-i18n="privacy.children.4">نحافظ على أمان عالي لحسابات الأطفال</li>
+            </ul>
+            <p data-i18n="privacy.children.warning">إذا كنت ولي أمر وتعتقد أن طفلك قد قدم معلومات شخصية دون موافقتك، يرجى التواصل معنا فورًا.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Changes to Privacy Policy -->
+      <div class="privacy-section">
+        <div class="privacy-card">
+          <div class="privacy-card-header">
+            <div class="privacy-card-icon">
+              <i class="fas fa-sync-alt"></i>
+            </div>
+            <h2 class="privacy-card-title" data-i18n="privacy.changes.title">تغييرات سياسة الخصوصية</h2>
+          </div>
+          <div class="privacy-card-content">
+            <p data-i18n="privacy.changes.desc">قد نحدث سياسة الخصوصية هذه من وقت لآخر. سنقوم بإشعارك بأي تغييرات جوهرية من خلال:</p>
+            <ul>
+              <li data-i18n="privacy.changes.1">إشعار في التطبيق</li>
+              <li data-i18n="privacy.changes.2">البريد الإلكتروني</li>
+              <li data-i18n="privacy.changes.3">نشر نسخة محدثة على موقعنا</li>
+            </ul>
+            <p data-i18n="privacy.changes.note">ننصحك بمراجعة هذه السياسة بانتظام للبقاء على اطلاع بآخر التحديثات. استمرار استخدامك للخدمة بعد التغييرات يعني موافقتك على السياسة المحدثة.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="privacy-contact-box">
+        <h3 data-i18n="privacy.contact.title">هل لديك أسئلة؟</h3>
+        <p data-i18n="privacy.contact.desc">إذا كان لديك أي أسئلة أو استفسارات حول سياسة الخصوصية هذه أو كيفية استخدامنا لمعلوماتك، لا تتردد في التواصل معنا. نحن هنا لمساعدتك.</p>
+        <a href="https://wa.me/+201000000000" target="_blank" class="privacy-contact-btn">
+          <i class="fab fa-whatsapp"></i>
+          <span data-i18n="privacy.contact.btn">تواصل معنا عبر الواتساب</span>
+        </a>
+      </div>
+
+      <!-- Last Updated -->
+      <div class="privacy-last-updated">
+        <p><strong data-i18n="privacy.updated.title">آخر تحديث:</strong> <span data-i18n="privacy.updated.date">يناير 2025</span></p>
+        <p data-i18n="privacy.updated.desc">هذه السياسة سارية المفعول اعتبارًا من تاريخ آخر تحديث أعلاه.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-pattern footer-pattern-1"></div>
+    <div class="footer-pattern footer-pattern-2"></div>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section footer-brand">
+          <div class="footer-logo">
+            <img src="template/images/58650bb37c859617f5523f105df9e19f06da6880.png" alt="الف لام ميم">
+          </div>
+          <h3 data-i18n="footer.brand.title">أكاديمية الف لام ميم</h3>
+          <p data-i18n="footer.brand.desc">منصة تحفيظ قرآنية رقمية تجمع بين التقاليد الأصيلة والتكنولوجيا الحديثة لمساعدتك على حفظ القرآن بإتقان.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="فيسبوك" data-i18n="[aria-label]footer.social.facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="تويتر" data-i18n="[aria-label]footer.social.twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="إنستغرام" data-i18n="[aria-label]footer.social.instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/+201055661614" target="_blank" class="social-link" aria-label="واتساب" data-i18n="[aria-label]footer.social.whatsapp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="يوتيوب" data-i18n="[aria-label]footer.social.youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-section footer-links">
+          <h4 data-i18n="footer.links.title">روابط سريعة</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="footer.links.home">الرئيسية</a></li>
+            <li><a href="#" data-i18n="footer.links.about">من نحن</a></li>
+            <li><a href="#" data-i18n="footer.links.features">المميزات</a></li>
+            <li><a href="#" data-i18n="footer.links.courses">الكورسات</a></li>
+            <li><a href="#" data-i18n="footer.links.contact">تواصل معنا</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section footer-legal">
+          <h4 data-i18n="footer.legal.title">معلومات قانونية</h4>
+          <ul>
+            <li><a href="privacy.html" data-i18n="footer.legal.privacy">سياسة الخصوصية</a></li>
+            <li><a href="terms.html" data-i18n="footer.legal.terms">الشروط والأحكام</a></li>
+            <li><a href="#" data-i18n="footer.legal.refund">سياسة الاسترجاع</a></li>
+            <li><a href="#" data-i18n="footer.legal.cookies">سياسة الكوكيز</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section footer-download">
+          <h4 data-i18n="footer.download.title">حمل التطبيق</h4>
+          <p data-i18n="footer.download.desc">احصل على تجربة كاملة على هاتفك المحمول</p>
+          <div class="footer-store-buttons">
+            <a href="#" class="footer-store-btn apple">
+              <i class="fab fa-apple"></i>
+              <div>
+                <small data-i18n="footer.download.apple.small">متاح على</small>
+                <span>App Store</span>
+              </div>
+            </a>
+            <a href="#" class="footer-store-btn google">
+              <i class="fab fa-google-play"></i>
+              <div>
+                <small data-i18n="footer.download.google.small">حمل من</small>
+                <span>Google Play</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <p data-i18n="footer.copyright">&copy; 2025 أكاديمية الف لام ميم. جميع الحقوق محفوظة.</p>
+        </div>
+        <div class="footer-made">
+          <p data-i18n="footer.made">صُنع بـ <i class="fas fa-heart"></i> من أجل خدمة القرآن الكريم</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+  <script src="template/js/jquery-3.2.1.min.js"></script>
+  <script src="template/js/bootstrap.bundle.min.js"></script>
+  <script src="template/js/swiper-bundle.min.js"></script>
+  <script src="template/js/main.js"></script>
+</body>
+</html>
