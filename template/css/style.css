@@ -2451,16 +2451,10 @@ text-align: left;
   opacity: 0.9;
 }
 
-.brmja-text {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 0.5px;
+.brmja-logo {
+  height: 20px;
+  width: auto;
   display: block;
-}
-
-.brmja-link:hover .brmja-text {
-  color: rgba(255, 255, 255, 1);
 }
 
 .brmja-copyright {
@@ -2500,8 +2494,8 @@ text-align: left;
     margin-top: 0.5rem;
   }
   
-  .brmja-text {
-    font-size: 0.9rem;
+  .brmja-logo {
+    height: 18px;
   }
   
   .brmja-copyright {
